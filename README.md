@@ -87,7 +87,7 @@ Both the HTTP server and discovery responder are module-level singletons polled 
 
 ## Roadmap
 
-- [ ] **Internet / external network support.** The big one: sharing with friends who are not on your Wi-Fi. The likely path is a lightweight rendezvous/relay option plus first-class support for overlay networks (BookShare already works over Tailscale between two jailbroken Kindles today via manual IP entry, since a tailnet looks like a LAN). Friend codes and the wire protocol were designed so the transport can change without re-pairing.
+- [ ] **Internet / external network support.** Sharing with friends who are not on your Wi-Fi. The likely path is a lightweight rendezvous/relay option plus first-class support for overlay networks (BookShare already works over Tailscale between two jailbroken Kindles today via manual IP entry, since a tailnet looks like a LAN). Friend codes and the wire protocol were designed so the transport can change without re-pairing.
 - [ ] Async transfers on the server side (the sharing device's UI currently pauses while streaming a file out)
 - [ ] Cover thumbnails and richer metadata in the library listing
 - [ ] Per-friend folder permissions (share one folder with one friend, everything with another)
@@ -100,4 +100,4 @@ Both the HTTP server and discovery responder are module-level singletons polled 
 
 ## License
 
-MIT (or pick your preference before publishing).
+MIT
